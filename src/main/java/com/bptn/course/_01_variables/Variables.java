@@ -4,6 +4,7 @@ public class Variables {
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
+<<<<<<< HEAD
 		
 		
 			   
@@ -79,6 +80,9 @@ public class Variables {
 			        
 			        
 			
+=======
+		System.out.println("Hi");
+>>>>>>> origin/main
 
 	}
 }
