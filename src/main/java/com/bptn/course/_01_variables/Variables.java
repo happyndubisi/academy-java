@@ -55,20 +55,26 @@ public class Variables {
 			        // i did a for loop here, aim to reverse the string variable word. remember to use for loop you are suppose to know the length of the variable hence i used the .length
 			        // property to find the length of variable word and assigned it to I-1, -1 because length starts from 1 not from 0 as index does, the set the condition to be if i is greater than
 			        // or equal to 0, i which is how the length of word to reduce by 1, hence the loop will keep running until i is 0 the it will stop. further, i appended the the result of each iteration to 
-			        // the variable wordReverse
+			        // the variable wordReverse, i used charAt to be able to access the individual character of the string
 			        		for(int i=word.length() -1; i>=0; i-- ) {
 			        			wordReverse += word.charAt(i);
 			        		}
+			        // then i compared the word variable with wordReverse with 'equals' as equals is used to compare strings
 			        if(word.equals(wordReverse)) {
-			        	System.out.println(" Input string is a palindrome");
+			        	System.out.println(" Input strin  g is a palindrome");
 			        } else{
 			        	System.out.println("Input string is not a palindrome");
 			        }
-			        
-			        
+			         // the if statement will return 'Input string is a palindrome'
 
+			        int series = 12345
+			        		int holder = 0;
+			        String seriesStr =Str.valueOfInt(series);
+			        for(int i = seriesStr.length()-1; i>0; i--) {
+			        	holder = holder * 10 + series.charAt[i]-'0');
+			        }
 			        
-			        
+			        System.out.println(holder;)
 			        
 			        
 			        
