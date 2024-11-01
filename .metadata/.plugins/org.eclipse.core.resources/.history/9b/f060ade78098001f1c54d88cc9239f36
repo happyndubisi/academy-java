@@ -1,0 +1,9 @@
+package contoller;
+
+public class Snippet {
+	public static void main(String[] args) {
+		import org.slf4j.Logger;
+		import org.slf4j.LoggerFactory;
+	}
+}
+

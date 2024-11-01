@@ -1,0 +1,16 @@
+package com.bptn.week6;
+
+import java.sql.Connection;
+
+
+public class Main {
+
+
+ public static void main(String[] args) {
+  ToDoList jdbc = new ToDoList();
+  Connection conn = jdbc.createConnection();
+  jdbc.closeConnection(conn);
+ }
+
+
+}
